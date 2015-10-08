@@ -1,0 +1,252 @@
+.contenedor-de-pagina{
+	margin:0 auto;
+	background-color: #EFF2FB;
+}
+.contenedor-de-articulos{
+	max-width: 950px;
+	min-width: 703px;
+	display:flex;
+	flex-wrap:wrap;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 0 20px;
+	flex-direction:row;
+	justify-content:space-between;
+	color: #ffffff;
+}
+.renglon{
+	display:flex;
+	width: 950px;
+}
+.columna-izquierda{
+	flex-wrap:wrap;
+	flex-direction:row;
+	/*display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	flex-direction:column;*/
+}
+.columna-derecha{
+	flex-direction:column;
+	flex-wrap:wrap;
+	display: flex;
+}
+@media(max-width: 1012px){
+	.columna-derecha{
+		flex-direction:row;
+	}	
+}
+.s-1i{
+	margin-bottom: 25px;
+	width: 630px;
+	height: 300px;
+	background-image: url("../img/one-2.jpg");
+}
+#fa-share{
+	left: 600px;
+}
+.position-1{
+	position: relative;
+    top: 175px;
+}
+.s-2i{
+	margin-bottom: 10px;
+	width: 630px;
+	height: 610px;
+	background-image: url("../img/atletico.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.s-1-2 {
+	font-size: 25px;
+}
+.position-2{
+	position: relative;
+    top: 448px;
+}
+.icono-cam{
+	position: relative;
+    z-index: 20;
+    top: 452px;
+}
+#fa-share-square-o{
+	left: 600px;
+}
+.s-3i{
+	margin-right: 6px;
+	display: inline-block;
+	width: 310px;
+	height: 300px;
+	background-image: url("../img/moda-hombre.2.jpg");
+}
+.position-3{
+	position: relative;
+    top: 175px;
+    font-size: 20px;
+}
+.s-4i{
+	display: inline-block;
+	width: 310px;
+	height: 300px;
+	background-image: url("../img/holanda .2.jpg");
+	background-size: cover;
+}
+.position-4{
+	position: relative;
+    top: 175px;    
+    font-size: 20px;
+}
+
+.s-5d{
+	text-align: center;
+	margin-bottom: 25px;
+	width: 310px;
+	height: 300px;
+	background-image: url("../img/lluvia.2.jpg");
+}
+.s-5d p{
+	
+	-webkit-margin-before:0;
+	-webkit-margin-after: 0;
+	display: inline-block;
+}
+.position-5{
+	font-size: 15px;
+	position: relative;
+    top: -3px;
+}
+.clima{
+	display: inline-block;
+}
+.titulo-clima{
+	font-size: 15px;
+	
+}
+.ciudad{
+	width: 300px;
+    text-align: left;
+    padding-top: 10px;
+}
+.titulo-clima i{
+	float: right;
+	font-size: 20px;
+}
+.clima-hoy{
+    line-height: 30px;
+    padding-top: 32px;
+}
+.temperatura-hoy{
+	font-size: 57px;
+}
+@media(max-width: 1012px){
+	.s-5d{
+		margin-top: 10px;
+	}
+}
+.s-6d{
+	margin-bottom: 10px;
+	width: 310px;
+	height: 300px;
+	background-image: url("../img/colectivo.jpg");
+}
+.s6-7-img{
+	position: relative;
+	top:142px;
+	z-index: 10;
+
+}
+.position-6{
+	position: relative;
+    top: 138px;
+}
+@media(max-width: 1012px){
+	.s-6d{
+		margin-left:10px;
+		margin-top: 10px;
+	}
+}
+.s-7d{
+	margin-bottom: 10px;
+	width: 310px;
+	height: 300px;
+	background-image: url("../img/vegetales.jpg");
+	background-size: cover;
+}
+.position-7{
+	position: relative;
+    top: 138px;
+}
+.s-8d{
+	width: 310px;
+	height: 300px;
+	background-image: url("../img/comida-china.2.jpg");
+	background-size: cover;
+}
+.position-8{
+	position: relative;
+    top: 175px;
+    font-size: 20px;
+}
+@media(max-width: 1012px){
+	.s-8d{
+		margin-left:10px;
+	}
+}
+.nota-transparente{
+	background-color: rgba(66,66,66,0.5);
+    height: 106px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.nota-transparente i{
+	position: relative;
+	left: 275px;
+    top: -10px;
+}
+.nota-transparente p{
+	margin: 0;
+}
+.nota-opaca{
+	height: 125px;
+	background-color:#424242;
+	margin: 0;
+	padding-left: 10px;
+	font-size: 20px;
+}
+.nota-opaca i{
+	position: relative;
+	left: 280px;
+    top: 10px;
+}
+.extendido {
+	background-color: rgba(66,66,66,0.4);
+	height: 125px;
+	text-align: center;
+}
+.contenedor-dias{
+	display: inline-block;
+	font-size: 15px;
+	padding: 0 12px 0 12px;	
+}
+.borde-izq{
+	border-left:solid 1px #ffffff;
+}
+.iconos-clima{
+	font-size: 40px;
+}
+.fa-youtube-play{
+	color: #FF4000;
+    font-size: 25px;
+    position: relative;
+    top: 151px;
+    background-color: #ffffff;
+}
+.fa-camera{
+	font-size: 25px;
+	color:#FFffff;
+	position: relative;
+    top: 462px;
+}
+
+
+
